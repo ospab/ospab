@@ -34,7 +34,7 @@ Working on transport that keeps working under DPI, and on the ospab ecosystem ar
     <td>Rust (no_std)</td>
   </tr>
   <tr>
-    <td><b>wirelab</b></td>
+    <td><a href="https://github.com/ospab/wirelab"><b>wirelab</b></td>
     <td>Test bench for censorship-resistant transports. Client, wire and server in containers, a censor model with cited rules, link impairments, scenario runs with CRTS outcome tables.</td>
     <td>Rust, Go, Docker</td>
   </tr>
