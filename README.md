@@ -34,34 +34,17 @@ Working on transport that keeps working under DPI, and on the ospab ecosystem ar
     <td>Rust (no_std)</td>
   </tr>
   <tr>
+    <td><b>wirelab</b></td>
+    <td>Test bench for censorship-resistant transports. Client, wire and server in containers, a censor model with cited rules, link impairments, scenario runs with CRTS outcome tables.</td>
+    <td>Rust, Go, Docker</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/ospab/crts"><b>crts</b></a></td>
     <td>Censorship-Resistant Transport Standard. Testable requirements and a threat registry for protocols under censorship.</td>
     <td>Spec</td>
   </tr>
-  <tr>
-    <td><a href="https://github.com/ospab/byteaway"><b>byteaway</b></a></td>
-    <td>VPN and residential proxy infrastructure. Rust master node, Flutter client with sing-box core.</td>
-    <td>Rust, Flutter, Go</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/ospab/vsrotator"><b>vsrotator</b></a></td>
-    <td>Deduplicates multiple VS Code based IDEs through a shared pool and hardlinks.</td>
-    <td>TypeScript, Rust</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/ospab/ospab.os"><b>ospab.os</b></a></td>
-    <td>First version of the OS. Preemptive multitasking, syscalls, virtual memory. Archived.</td>
-    <td>Rust, C</td>
-  </tr>
 </table>
 
-<p>
-Earlier: plugins for SCP: Secret Laboratory on EXILED
-(<a href="https://github.com/ospab/SCPEconomy">SCPEconomy</a>,
-<a href="https://github.com/ospab/KillTab">KillTab</a>,
-<a href="https://github.com/ospab/BroadcastPluginEx">BroadcastPluginEx</a>),
-hosting panel <a href="https://github.com/ospab/ospabpanel1">ospabpanel</a> in Go.
-</p>
 
 <h3>Stack</h3>
 
