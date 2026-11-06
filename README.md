@@ -7,7 +7,6 @@ Working on transport that keeps working under DPI, and on the ospab ecosystem ar
 
 <p>
 <a href="https://ospab.org"><img src="https://img.shields.io/badge/ospab.org-0d1117?style=flat-square&logo=googlechrome&logoColor=white" alt="ospab.org"></a>
-<a href="https://ospab.host"><img src="https://img.shields.io/badge/ospab.host-0d1117?style=flat-square&logo=serverfault&logoColor=white" alt="ospab.host"></a>
 <img src="https://komarev.com/ghpvc/?username=ospab&style=flat-square&color=555555&label=views" alt="views">
 </p>
 
