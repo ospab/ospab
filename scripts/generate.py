@@ -154,7 +154,7 @@ def activity_card(year, theme):
     weeks = year["contributionCalendar"]["weeks"]
     counts = [sum(d["contributionCount"] for d in w["contributionDays"]) for w in weeks]
     peak = max(counts) or 1
-    width, height, left, top, bottom = 780, 160, 24, 20, 128
+    width, height, left, top, bottom = 780, 170, 24, 38, 138
     step = (width - 2 * left) / len(counts)
     body = ""
     for frac in (0.5, 1.0):
@@ -175,8 +175,8 @@ def activity_card(year, theme):
             body += f'<text x="{left + i * step:.1f}" y="{bottom + 18}" font-size="11" fill="{t["muted"]}">{d.strftime("%b")}</text>'
         last_month = d.month
     body += (
-        f'<text x="{width - left}" y="{bottom + 18}" font-size="11" fill="{t["muted"]}" '
-        f'text-anchor="end">weekly contributions, peak {peak}</text>'
+        f'<text x="{left}" y="22" font-size="11" fill="{t["muted"]}">Weekly contributions, last 12 months</text>'
+        f'<text x="{width - left}" y="22" font-size="11" fill="{t["muted"]}" text-anchor="end">peak {peak}</text>'
     )
     return svg(width, height, theme, body)
 
